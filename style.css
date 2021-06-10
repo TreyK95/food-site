@@ -66,4 +66,18 @@ html {
   display: flex;
   justify-content: space-evenly;
 }
+.card {
+  width: 30rem;
+  background-color: #a79a2d;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img {
+  width: 100%;
+}
+
 /* end of section 2 */
