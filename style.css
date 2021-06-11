@@ -163,9 +163,22 @@ html {
   justify-content: space-evenly;
   margin-top: 10rem;
 }
+.gallery-link {
+  position: relative;
+}
 .food-img {
   width: 24vw;
   height: 15vw;
   object-fit: cover;
+}
+.food-name {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
 }
 /* end of seciton 3 */
