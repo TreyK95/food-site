@@ -165,6 +165,7 @@ html {
 }
 .gallery-link {
   position: relative;
+  margin: 4rem 1rem;
 }
 .food-img {
   width: 24vw;
@@ -181,4 +182,16 @@ html {
   letter-spacing: 0.1rem;
   color: #fff;
 }
+.food-description {
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 /* end of seciton 3 */
