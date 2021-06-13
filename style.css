@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
 }
 .section-heading {
-  font-size: 15rem;
+  font-size: 12rem;
   font-weight: 900;
   color: #fff;
   text-transform: capitalize;
@@ -97,7 +97,7 @@ html {
 }
 .menu.change {
   top: 15rem;
-  transition: top;
+  transition: top 0.4s;
 }
 
 .menu::before {
@@ -123,16 +123,6 @@ html {
   justify-content: space-evenly;
 }
 
-.section-heading {
-  font-size: 12rem;
-  font-weight: 900;
-  color: #fff;
-  text-transform: capitalize;
-  letter-spacing: 0.5rem;
-  text-align: center;
-  text-shadow: 0.3rem 0.3rem 0.3rem #000;
-}
-
 .section-1-icons i {
   font-size: 35rem;
   color: #fff;
@@ -144,7 +134,7 @@ html {
 
 .section-1-icons i.change {
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 0.3s;
+  transition: transform 0.3s 0.3s;
 }
 
 /* end of section 1 */
@@ -163,6 +153,9 @@ html {
 .cards-container {
   display: flex;
   justify-content: space-evenly;
+}
+.card-wrapper {
+  perspective: 1000rem;
 }
 .card {
   width: 30rem;
@@ -212,7 +205,6 @@ html {
 
 .card-img {
   width: 100%;
-  height: 100%;
 }
 
 .card-name {
@@ -270,9 +262,6 @@ html {
   transition: height 0.5s;
   z-index: 10;
 }
-.gallery-link:hover::before {
-  height: 80%;
-}
 .gallery-link::after {
   content: "";
   position: absolute;
@@ -282,6 +271,9 @@ html {
   height: 0.2rem;
   background-color: #fff;
   transition: width 0.5s;
+}
+.gallery-link:hover::before {
+  height: 80%;
 }
 
 .gallery-link:hover::after {
@@ -313,7 +305,7 @@ html {
   color: #fff;
   width: 0;
   overflow: hidden;
-  transition: width 2.3s;
+  transition: width 0.3s;
 }
 .gallery-link:hover .food-name {
   width: 100%;
@@ -489,7 +481,7 @@ html {
     font-size: 40%;
   }
   .navbar-link {
-    margin: 0.7rem;
+    margin: 0 0.7rem;
   }
 }
 /* end of responsive */
