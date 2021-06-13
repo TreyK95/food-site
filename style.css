@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: Nunito, sans-serif;
+  font-family: Caveat, sans-serif;
   font-weight: 400;
 }
 
@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
 }
 .section-heading {
-  font-size: 12rem;
+  font-size: 15rem;
   font-weight: 900;
   color: #fff;
   text-transform: capitalize;
@@ -26,14 +26,14 @@ html {
 .navbar {
   width: 100%;
   height: 14rem;
-  background-color: #000;
+  background-color: #464866;
   position: fixed;
   top: -14rem;
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.2rem 0.2rem 0.2rem #000;
+  box-shadow: 0.2rem 0.2rem 0.2rem #464866;
   transition: top 0.4s;
 }
 .navbar.change {
@@ -41,7 +41,7 @@ html {
   transition: top 0.4s 0.2s;
 }
 .navbar-link {
-  color: #aaa;
+  color: #aaabb8;
   margin: 0 4rem;
   display: flex;
   flex-direction: column;
@@ -85,12 +85,12 @@ html {
 .menu {
   width: 4rem;
   height: 6rem;
-  background-color: #000;
+  background-color: #464866;
   position: fixed;
   top: 1rem;
   left: 5rem;
   border-radius: 30rem 30rem 15rem 15rem;
-  box-shadow: 0.1rem 0.1rem 0.1rem #000, -0.1rem -0.1rem 0.1rem #000;
+  box-shadow: 0.1rem 0.1rem 0.1rem #fff, -0.1rem -0.1rem 0.1rem #fff;
   cursor: pointer;
   z-index: 100;
   transition: top 0.4s 0.2s;
@@ -104,11 +104,11 @@ html {
   content: "";
   width: 0.3rem;
   height: 15rem;
-  background-color: #000;
+  background-color: #464866;
   position: absolute;
   top: -15rem;
   left: calc(50% - 0.15rem);
-  box-shadow: 0.1rem 0 0.1rem #000;
+  box-shadow: 0.1rem 0 0.1rem #464866;
 }
 /* end of navbar */
 
@@ -116,7 +116,7 @@ html {
 .section-1 {
   width: 100%;
   height: 100vh;
-  background-color: #333;
+  background-color: #25274d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +135,7 @@ html {
 
 .section-1-icons i {
   font-size: 35rem;
-  color: #a79a2d;
+  color: #fff;
   position: absolute;
   transform: translate(-50%, -50%) scale(0);
   text-shadow: 0.2rem 0.2rem 0.2rem #000;
@@ -153,7 +153,7 @@ html {
 .section-2 {
   width: 100%;
   height: 100vh;
-  background-color: #222;
+  background-color: #464866;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -166,7 +166,8 @@ html {
 }
 .card {
   width: 30rem;
-  background-color: #a79a2d;
+  background-color: #464866;
+
   padding: 4rem;
   display: flex;
   flex-direction: column;
@@ -180,14 +181,14 @@ html {
 
 .card:hover {
   transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
-  box-shadow: 2rem 2rem 2rem #000;
+  box-shadow: 2rem 2rem 2rem #25274d;
 }
 
 .card::before {
   content: "";
   height: 100%;
   width: 1rem;
-  background-color: #817824;
+  background-color: #25274d;
   position: absolute;
   top: 0;
   left: -1rem;
@@ -200,7 +201,7 @@ html {
   content: "";
   height: 1rem;
   width: 100%;
-  background-color: #8f8317;
+  background-color: #25274d;
   position: absolute;
   top: -1rem;
   left: 0;
@@ -211,6 +212,7 @@ html {
 
 .card-img {
   width: 100%;
+  height: 100%;
 }
 
 .card-name {
@@ -218,15 +220,15 @@ html {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  color: #111;
+  color: #fff;
   margin: 2rem 0;
   text-shadow: 0.15rem 0.15rem 0.15rem #000;
 }
 
 .card-btn {
   width: 70%;
-  background-color: #111;
-  color: #888;
+  background-color: #000;
+  color: #fff;
   border-radius: 5rem;
   font-size: 1.5rem;
   font-weight: 800;
@@ -242,7 +244,7 @@ html {
 
 /* section 3 */
 .section-3 {
-  background-color: #333;
+  background-color: #aaabb8;
   padding: 5rem 0;
 }
 .gallery {
@@ -289,13 +291,13 @@ html {
   width: 24vw;
   height: 15vw;
   object-fit: cover;
-  box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946,
-    0.7rem 0.7rem 0.1rem #287ce9, 0.9rem 0.9rem 0.1rem #e92999;
+  box-shadow: 0.3rem 0.3rem 0.1rem #25274d, 0.5rem 0.5rem 0.1rem #2e9cca,
+    0.7rem 0.7rem 0.1rem #aaabb8, 0.9rem 0.9rem 0.1rem #464866;
   transition: all 0.5s;
 }
 .gallery-link:hover .food-img {
-  box-shadow: 1rem 1rem 0.1rem #e92929, 2rem 2rem 0.1rem #a2e946,
-    3rem 3rem 0.1rem #287ce9, 4rem 4rem 0.1rem #e92999;
+  box-shadow: 1rem 1rem 0.1rem #25274d, 2rem 2rem 0.1rem #2e9cca,
+    3rem 3rem 0.1rem #aaabb8, 4rem 4rem 0.1rem #464866;
   filter: blur(0.5rem);
   opacity: 0.5;
   transform: scale(1.1);
@@ -344,7 +346,7 @@ html {
 .section-4 {
   width: 100%;
   height: 30vh;
-  background-color: #222;
+  background-color: #25274d;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -358,11 +360,11 @@ html {
 .section-4-heading {
   font-size: 4rem;
   font-weight: 900;
-  color: #a79a2d;
+  color: #fff;
 }
 .section-4-paragraph {
   font-size: 1.5rem;
-  color: #888;
+  color: #aaabb8;
 }
 
 .signup-form {
@@ -373,22 +375,22 @@ html {
   width: 35rem;
   height: 5rem;
   padding: 1rem;
-  border: 0.2rem solid #a79a2d;
+  border: 0.2rem solid #aaabb8;
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color: #a79a2d;
+  color: #aaabb8;
 }
 .signup-form-input::placeholder {
-  color: #a79a2d;
+  color: #aaabb8;
 }
 .signup-form-btn {
   position: relative;
   left: -4.5rem;
   width: 4rem;
   height: 4rem;
-  background-color: #333;
-  color: #a79a2d;
+  background-color: #25274d;
+  color: #aaabb8;
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
@@ -398,9 +400,9 @@ html {
   bottom: 3rem;
   font-size: 1.7rem;
   font-weight: 200;
-  color: #eee;
+  color: #fff;
   letter-spacing: 0.1rem;
-  border-top: 0.1rem solid #888;
+  border-top: 0.1rem solid #fff;
   padding-top: 6rem;
   width: 100%;
   text-align: center;
@@ -483,9 +485,8 @@ html {
   html {
     font-size: 40%;
   }
-
   .navbar-link {
-    margin: 0 0.7rem;
+    margin: 0.7rem;
   }
 }
 /* end of responsive */
