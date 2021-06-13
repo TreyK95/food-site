@@ -92,7 +92,7 @@ html {
   border-radius: 30rem 30rem 15rem 15rem;
   box-shadow: 0.1rem 0.1rem 0.1rem #fff, -0.1rem -0.1rem 0.1rem #fff;
   cursor: pointer;
-  z-index: 100;
+  z-index: 300;
   transition: top 0.4s 0.2s;
 }
 .menu.change {
@@ -457,6 +457,9 @@ html {
   }
   .navbar-link span {
     font-size: 2rem;
+  }
+  .card {
+    margin: 3rem;
   }
 }
 @media (max-width: 700px) {
